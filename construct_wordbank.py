@@ -1,6 +1,10 @@
 import sqlite3 as sql
 
 class WordBankContructor():
+    ''' This class builds the word bank used in typer. 
+    It can be run through typer by choosing "build word bank" in the main menu. 
+    It only needs to be run a single time for each computer.
+    Paragraphs used to build the word bank are stored in data.txt''' 
 
     def __init__(self):
         self.connecter = sql.connect('typerData.db')
@@ -20,6 +24,3 @@ class WordBankContructor():
                 self.cursor.execute('INSERT INTO wordbank VALUES (?, ?)', (index, paragraph))
             self.connecter.commit()
         
-
-wbc = WordBankContructor()
-wbc.populate_wordbank()
