@@ -11,8 +11,6 @@ I wrote this software because I was interested in learning how to manage a SQL r
 simply because it sounded like a fun thing I could do that sort of felt like a game in a compete with myself kind of way. 
 It's not fancy by any means, but it has a simple kind of fun to it that helps you improve your typing ability at the same time.
 
-[Typing Trainer demo](https://youtu.be/D6Cjn96jtb4)
-
 # Relational Database
 
 I'm using a SQL relational database to store two primary types of data, which is the paragraphs given to the user to type, 
